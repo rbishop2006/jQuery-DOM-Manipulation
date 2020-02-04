@@ -4,5 +4,46 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherent;
+  box-sizing: inherit;
+}
+#allSections {
+  padding: 0;
+  list-style-type: none;
+  width: 505px;
+  font-family: Arial, sans-serif;
+}
+
+.content p {
+  padding: 20px;
+}
+#allSections a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+  padding-left: 20px;
+}
+.titles {
+  background: rgb(34, 171, 184);
+  height: 43px;
+  width: 505px;
+  display: grid;
+  align-content: center;
+  border: 1px solid rgb(29, 192, 207);
+  border-top: 1px solid rgb(105, 207, 216);
+}
+.titles:hover {
+  background: rgb(75, 209, 221);
+}
+.content {
+  color: darkgray;
+  font-size: 0.85em;
+  transition: 1s;
+  height: 0;
+  overflow: hidden;
+}
+.show {
+  color: darkgray;
+  font-size: 0.85em;
+  height: 222px;
+  border: 1px solid rgb(29, 192, 207);
 }
