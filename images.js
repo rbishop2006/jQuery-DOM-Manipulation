@@ -17,8 +17,8 @@ var carouselImages = [
     photographer_id: "GodofWar22"
   }
   // {
-  //   image_url: 'http://paperlief.com/images/tomb-raider-cast-wallpaper-3.jpg',
-  //   title: 'Tomb Raider',
-  //   photographer_id: 'Raider7'
+  //   image_url: "http://paperlief.com/images/tomb-raider-cast-wallpaper-3.jpg",
+  //   title: "Tomb Raider",
+  //   photographer_id: "Raider7"
   // }
 ]
